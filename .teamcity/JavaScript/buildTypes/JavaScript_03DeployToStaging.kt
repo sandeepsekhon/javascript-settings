@@ -24,7 +24,7 @@ object JavaScript_03DeployToStaging : BuildType({
             id = "RUNNER_6"
             scriptContent = """
             rmdir /S /Q \inetpub\wwwroot
-            xcopy /S /I /Y MyApp \inetpub\wwwroot
+            xcopy /S /I /Y app \inetpub\wwwroot
             """
         }
     }
