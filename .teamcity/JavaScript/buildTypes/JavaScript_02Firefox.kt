@@ -2,11 +2,11 @@ package JavaScript.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v10.*
 
-object JavaScript_03Firefox : BuildType({
+object JavaScript_02Firefox : BuildType({
     template(JavaScript.buildTypes.JavaScript_Template)
     uuid = "11c53e28-1224-49b0-9af7-9d74f302d994"
-    extId = "JavaScript_03Firefox"
-    name = "03.Firefox"
+    extId = "JavaScript_02Firefox"
+    name = "02.Firefox"
 
     params {
         param("Browser", "Firefox")
