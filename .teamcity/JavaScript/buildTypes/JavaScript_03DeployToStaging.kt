@@ -12,14 +12,6 @@ object JavaScript_03DeployToStaging : BuildType({
 
     }
 
-    steps {
-        script {
-            name = "IIS Deploy"
-            id = "RUNNER_IISDEPLOY_1"
-            scriptContent = "xcopy /S /I /Y MyJavascriptApp \inetpub\wwwroot"
-        }
-    }
-
     dependencies {
         dependency(JavaScript.buildTypes.JavaScript_02Chrome) {
             snapshot {
