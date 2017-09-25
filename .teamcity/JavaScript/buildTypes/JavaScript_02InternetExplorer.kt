@@ -2,14 +2,14 @@ package JavaScript.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v10.*
 
-object JavaScript_03Firefox : BuildType({
+object JavaScript_02InternetExplorer : BuildType({
     template(JavaScript.buildTypes.JavaScript_Template)
-    uuid = "11c53e28-1224-49b0-9af7-9d74f302d994"
-    extId = "JavaScript_03Firefox"
-    name = "03.Firefox"
+    uuid = "8950B336-FB1B-4528-AF9C-BD11C2622222"
+    extId = "JavaScript_02InternetExplorer"
+    name = "02.InternetExplorer"
 
     params {
-        param("Browser", "Firefox")
+        param("Browser", "IE")
     }
 
     dependencies {

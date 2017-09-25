@@ -20,6 +20,7 @@ object Project : Project({
 
     buildType(JavaScript_03DeployToStaging)
     buildType(JavaScript_02Chrome)
+    buildType(JavaScript_02InternetExplorer)
     buildType(JavaScript_01FastTests)
     buildType(JavaScript_03Firefox)
 
