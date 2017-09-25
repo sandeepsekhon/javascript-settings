@@ -20,10 +20,6 @@ object JavaScript_03DeployToStaging : BuildType({
         dependency(JavaScript.buildTypes.JavaScript_03Firefox) {
             snapshot {
             }
-        }
-        dependency(JavaScript.buildTypes.JavaScript_02InternetExplorer) {
-            snapshot {
-            }
-        }        
+        }          
     }
 })
