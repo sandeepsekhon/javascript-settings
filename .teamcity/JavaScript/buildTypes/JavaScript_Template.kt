@@ -25,7 +25,7 @@ object JavaScript_Template : Template({
             scriptContent = "npm install"
         }
         script {
-            name = "Browser Tests"
+            name = "Browser Specific Tests"
             id = "RUNNER_7"
             scriptContent = "npm test -- --single-run --browsers %Browser% --colors false --reporters teamcity"
         }
